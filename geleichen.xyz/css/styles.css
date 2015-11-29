@@ -768,7 +768,7 @@ a.hire-btn:hover{
     color: #FFFFFF;
 }
 .parallax-overlay-2 {
-    background-color:rgba(0,0,0,0.75);
+    background-color:rgba(0,0,0,1);
 }
 .parallax .container{
   padding: 145px 20px;
