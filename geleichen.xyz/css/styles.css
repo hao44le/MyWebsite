@@ -1,67 +1,67 @@
 /*
-* Template Name: MD - Responsive Personal Resume / Portfolio template
-* Template URI: http://themeforest.com/user/metrothemes
-* Description:MD - Responsive Personal Resume / Portfolio template
-* Author: Metrothemes
-* Author URI: http://themeforest.com/user/metrothemes
-* Version: 1.0
-*/
+ * Template Name: MD - Responsive Personal Resume / Portfolio template
+ * Template URI: http://themeforest.com/user/metrothemes
+ * Description:MD - Responsive Personal Resume / Portfolio template
+ * Author: Metrothemes
+ * Author URI: http://themeforest.com/user/metrothemes
+ * Version: 1.0
+ */
 
 
 /*---------------------------------------------------------------------- /
-Table of Contents
------------------------------------------------------------------------- /
-
-* 1 - Imported Stylesheets
-* 2 - General Styles
-*   2.1 - Button Styles
-*   2.2 - Social Icons
-* 3 - Header
-*   3.1 - Navigation One
-*   3.2 - Navigation Two
-* 4 - Section
-*   4.1 - Section Title
-* 5 - Parallax
-*   5.1 - Parallax Backgrounds
-* 6 - Home
-* 7 - About
-* 8 - Experience
-*   8.1 - Timeline
-* 9 - Milstone Counters
-* 10 - Service Items
-* 11 - Skill
-*   11.1 - Skill Chart
-* 12 - Work Process
-* 13 - Portfolio
-*   13.1 - Isotop Transitions
-*   13.2 - Portfolio Single Page
-* 14 - Pricetable BG
-*   14.1 - Priceing
-* 15 - Blog
-* 16 - Clients
-*   16.1 - Testimonials
-*   16.2 - Clients Logo
-* 17 - Contact
-* 18 - Footer
-*   18.1 - Tweet List
-*   18.2 - Footers Widgets
-*   18.3 - Footer Social Icons
-* 19 - Color Switcer
-* 20 - Preloader
-
------------------------------------------------------------------------- /
-Table of Contents End
-------------------------------------------------------------------------*/
+ Table of Contents
+ ------------------------------------------------------------------------ /
+ 
+ * 1 - Imported Stylesheets
+ * 2 - General Styles
+ *   2.1 - Button Styles
+ *   2.2 - Social Icons
+ * 3 - Header
+ *   3.1 - Navigation One
+ *   3.2 - Navigation Two
+ * 4 - Section
+ *   4.1 - Section Title
+ * 5 - Parallax
+ *   5.1 - Parallax Backgrounds
+ * 6 - Home
+ * 7 - About
+ * 8 - Experience
+ *   8.1 - Timeline
+ * 9 - Milstone Counters
+ * 10 - Service Items
+ * 11 - Skill
+ *   11.1 - Skill Chart
+ * 12 - Work Process
+ * 13 - Portfolio
+ *   13.1 - Isotop Transitions
+ *   13.2 - Portfolio Single Page
+ * 14 - Pricetable BG
+ *   14.1 - Priceing
+ * 15 - Blog
+ * 16 - Clients
+ *   16.1 - Testimonials
+ *   16.2 - Clients Logo
+ * 17 - Contact
+ * 18 - Footer
+ *   18.1 - Tweet List
+ *   18.2 - Footers Widgets
+ *   18.3 - Footer Social Icons
+ * 19 - Color Switcer
+ * 20 - Preloader
+ 
+ ------------------------------------------------------------------------ /
+ Table of Contents End
+ ------------------------------------------------------------------------*/
 
 
 
 /* 1 - Imported Stylesheets
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 @import url(metrofontpack.css);
 
 
 /* 2 - General Styles
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 html{
     overflow-y: scroll;
     overflow-x: hidden;
@@ -88,16 +88,16 @@ h1, h2, h3, h4, h5, h6 {
     color: #373432;
     line-height: 1em;
     font-weight: bold;
- }
+}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #111; }
 /*
-h1 { font-size: 30px; }
-h2 { font-size: 24px; }
-h3 { font-size: 22px; }
-h4 { font-size: 18px; }
-h5 { font-size: 16px; }
-h6 { font-size: 14px; }
-*/
+ h1 { font-size: 30px; }
+ h2 { font-size: 24px; }
+ h3 { font-size: 22px; }
+ h4 { font-size: 18px; }
+ h5 { font-size: 16px; }
+ h6 { font-size: 14px; }
+ */
 p {
     padding-bottom: 10px;
     line-height: 25px;
@@ -113,7 +113,7 @@ dl { margin: 0 0 1.5em 0; }
 dl dt { font-weight: bold; }
 dd  { margin-left: 1.5em;}
 blockquote  { margin: 1.5em; padding: 1em; color: #666666; background: #e6e6e6; font-style: italic; border: 1px solid #dcdcdc; }
-    blockquote p { padding-bottom: 0px; }
+blockquote p { padding-bottom: 0px; }
 
 input[type=text],input.text, input.title, textarea, select { background-color:#FFFFFF; border:1px solid #bbb; padding: 2px; color: #4e4e4e; }
 input[type=text]:focus, input.text:focus, input.title:focus, textarea:focus, select:focus { border-color:#2D3940; color: #3e3e3e; }
@@ -179,7 +179,7 @@ blockquote p {
     outline: none;
 }
 /* 2.1 - Button Styles
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .btn{
     background-image: none;
     border-color: rgba(0, 0, 0, 0.1);
@@ -258,7 +258,7 @@ a.hire-btn:hover{
     border-radius:50px!important;
 }
 /* 2.2 - Social Icons
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .social { padding:0; margin:2em 0; list-style:none; text-align: center; }
 .social li { display:inline-block; padding:0; margin-bottom: 3px; }
 .social li a {
@@ -420,7 +420,7 @@ a.hire-btn:hover{
 }
 
 /* 3 - Header
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 #header {
     display: block;
     position: fixed;
@@ -446,9 +446,9 @@ a.hire-btn:hover{
     position: relative;
     cursor: default;
     box-shadow:
-        inset 0 0 0 0 rgba(200,95,66, 0.4),
-        inset 0 0 0 16px rgba(255,255,255,0.6),
-        0 1px 2px rgba(0,0,0,0.1);
+    inset 0 0 0 0 rgba(200,95,66, 0.4),
+    inset 0 0 0 16px rgba(255,255,255,0.6),
+    0 1px 2px rgba(0,0,0,0.1);
     margin: 0 auto;
 }
 #header .social{
@@ -504,7 +504,7 @@ a.hire-btn:hover{
     border-radius: 30px 30px 30px 30px;
     box-shadow: 1px 0 2px rgba(0, 0, 0, 0.1);
     line-height: 62px;
-
+    
 }
 #open-nav > img{
     margin-left: 20px;
@@ -515,7 +515,7 @@ a.hire-btn:hover{
 
 
 /* 3.1 - Navigation One
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .navone {
     position: absolute;
     left: 0;
@@ -549,7 +549,7 @@ a.hire-btn:hover{
 
 
 /* 3.2 - Navigation two
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .main-menu-continer{
     min-height: 80px;
 }
@@ -711,14 +711,14 @@ a.hire-btn:hover{
 
 
 /* 4 - Section
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .section{
     padding: 150px 0;
     position: relative;
 }
 
 /* 4.1 - Section Title
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .about-style1 .section-title{
     margin-top: 178px;
     text-align: center;
@@ -758,7 +758,7 @@ a.hire-btn:hover{
     color: #7e878f;
 }
 /* 5 - Parallax
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .parallax {
     background-attachment: fixed !important;
     background-position: center center;
@@ -768,10 +768,10 @@ a.hire-btn:hover{
     color: #FFFFFF;
 }
 .parallax-overlay-2 {
-    background-color:rgba(0,0,0,1);
+    background-color:rgba(0,0,0,0.75);
 }
 .parallax .container{
-  padding: 145px 20px;
+    padding: 145px 20px;
 }
 .parallax .title{
     margin-bottom: 80px;
@@ -811,7 +811,7 @@ a.hire-btn:hover{
 }
 
 /* 5.1 - Parallax Backgrounds
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 #status{
     background-image: url('http://placehold.it/1920x1024');
 }
@@ -825,7 +825,7 @@ a.hire-btn:hover{
     background-image: url('http://placehold.it/1920x1024');
 }
 /* 6 - Home
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 #home{
     background: url('../img/background.png');
     background-attachment: fixed !important;
@@ -836,7 +836,7 @@ a.hire-btn:hover{
 .home-parallax {
 }
 .home-parallax .container{
-  padding: 145px 20px;
+    padding: 145px 20px;
 }
 .home-overlay {
     background:repeat scroll 0 0 rgba(53,60,79,.8);
@@ -897,16 +897,16 @@ a.hire-btn:hover{
 
 
 /* 7 - about
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .img-about{
     display: block;
     height: auto;
     margin-top: 24px;
     max-width: 100%;
-        box-shadow:
-        inset 0 0 0 0 rgba(200,95,66, 0.4),
-        inset 0 0 0 16px rgba(255,255,255,0.6),
-        0 1px 2px rgba(0,0,0,0.1);
+    box-shadow:
+    inset 0 0 0 0 rgba(200,95,66, 0.4),
+    inset 0 0 0 16px rgba(255,255,255,0.6),
+    0 1px 2px rgba(0,0,0,0.1);
 }
 .about-info .info-title p, .about-info .info-details p{
     color: #7e868e;
@@ -978,13 +978,13 @@ a.hire-btn:hover{
 }
 
 /* 8 - Experience
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 #experience.section{
     background-color: #f0f2f7;
 }
 
 /* 8.1 - Timeline
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .timeline {
     height: 100%;
 }
@@ -1164,7 +1164,7 @@ a.hire-btn:hover{
     left: 3px;
     margin-top: 12px;
     border-radius: 50%;
-
+    
 }
 
 .timeline-end-icon{
@@ -1184,9 +1184,9 @@ a.hire-btn:hover{
     z-index: 6;
 }
 /* 9 - Milestones Counters
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .count{
-
+    
 }
 .count .single {
     font-size: 20px;
@@ -1214,12 +1214,12 @@ a.hire-btn:hover{
     padding: 20px 0 10px;
     font-size: 22px;
     font-weight: 700;
-
+    
 }
 
 
 /* 10 - Service Items
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .left-service{
     float: left;
 }
@@ -1262,7 +1262,7 @@ a.hire-btn:hover{
 .service-content h3{
     color: #2c3d4f;
     text-transform: uppercase;
-
+    
     font-size: 22px;
     font-weight: bold;
 }
@@ -1274,39 +1274,39 @@ a.hire-btn:hover{
 
 
 /* 11 - Skills
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 #skills {
     background-color: #F0F2F7;
 }
 
 /* 11 - Skill chart
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .chart-padding{
     margin-bottom: 50px;
 }
 .chart {
-  position: relative;
-  padding: 0 10px;
-  display: block;
-  margin: 0 auto;
-  width: 170px;
-  height: 170px;
-  text-align: center;
+    position: relative;
+    padding: 0 10px;
+    display: block;
+    margin: 0 auto;
+    width: 170px;
+    height: 170px;
+    text-align: center;
 }
 .chart canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .percent {
-  display: inline-block;
-  line-height: 170px;
-  z-index: 2;
+    display: inline-block;
+    line-height: 170px;
+    z-index: 2;
 }
 .percent:after {
-  content: '%';
-  margin-left: 0.1em;
-  font-size: .8em;
+    content: '%';
+    margin-left: 0.1em;
+    font-size: .8em;
 }
 .chart p{
     color: #9fa3a9;
@@ -1333,7 +1333,7 @@ a.hire-btn:hover{
 
 
 /* 12 - Works Process
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .work_process {
     position: relative;
     text-align: center;
@@ -1366,7 +1366,7 @@ a.hire-btn:hover{
 }
 
 /* 13 - portfolio
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 #options {
     display: block;
     margin:20px auto 40px 10px;
@@ -1499,7 +1499,7 @@ a.hire-btn:hover{
     transform: scale(1.1);
 }
 /* 13.1 - Isotop transitions
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .isotope, .isotope .isotope-item {
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
@@ -1533,7 +1533,7 @@ a.hire-btn:hover{
 }
 
 /* 13.2 - Portfolio single page
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .portfolio-single {
     padding-bottom: 100px;
     padding-top: 150px;
@@ -1571,13 +1571,13 @@ a.hire-btn:hover{
     text-transform: uppercase;
 }
 /* 14 - PriceTable Bg
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 #pricetable{
     background-color: #f0f2f7;
 }
 
 /* 14.1 - priceing
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .price-padding{
     padding-left: 6px;
     padding-right: 6px;
@@ -1679,36 +1679,36 @@ a.hire-btn:hover{
 }
 
 /* 15 - Blog
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 #blog {
     background-color: #F0F2F7;
 }
 
 .blog-masonry {
-  padding: 80px 0;
+    padding: 80px 0;
 }
 
 .blog-post-holder {
-  width: 100%;
-  position: relative;
-  margin-bottom: 100px;
-  margin-top: 60px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 100px;
+    margin-top: 60px;
 }
 
 .masonry-post {
-  background-color: #FFFFFF;
-  float: left;
-  position: relative;
-  border: 1px solid #eee;
-  margin-bottom: 20px;
-  width: 350px;
-  margin-left: 25px;
+    background-color: #FFFFFF;
+    float: left;
+    position: relative;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    width: 350px;
+    margin-left: 25px;
 }
 
 .masonry-post-img {
-  position: relative;
-  width: 100%;
-  height: 100%;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 /* video post */
@@ -1731,7 +1731,7 @@ a.hire-btn:hover{
 
 /* quote post */
 .masonry-post.quote{
-  padding: 30px;
+    padding: 30px;
 }
 .masonry-post .post-quote h2 {
     font-size: 30px;
@@ -1740,60 +1740,60 @@ a.hire-btn:hover{
 }
 
 .masonry-post-title h4 {
-  padding: 10px 20px 0 20px;
-  margin: 0;
-  font-size: 24px;
-  font-weight: 500;
-  text-transform: uppercase;
-  line-height: 40px;
+    padding: 10px 20px 0 20px;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 40px;
 }
 
 .masonry-post-meta {
-  padding: 0 20px;
-  font-weight: 600;
-  font-size: 14px;
-
-  margin-bottom: 15px;
+    padding: 0 20px;
+    font-weight: 600;
+    font-size: 14px;
+    
+    margin-bottom: 15px;
 }
 
 .masonry-post-meta .masonry-author {
-  font-style: normal;
-  font-weight: 400;
-  color: #a3a2a2;
+    font-style: normal;
+    font-weight: 400;
+    color: #a3a2a2;
 }
 
 .masonry-post-content {
-  padding: 15px 20px 25px 20px;
-  border-top: 1px solid #eee;
+    padding: 15px 20px 25px 20px;
+    border-top: 1px solid #eee;
 }
 
 .masonry-post-more {
-  padding: 15px 20px;
-  font-size: 14px;
-  background-color: #f7f7f7;
-  text-align: center;
+    padding: 15px 20px;
+    font-size: 14px;
+    background-color: #f7f7f7;
+    text-align: center;
 }
 
 .masonry-post-more a {
-  display: block;
-  color: #808080;
+    display: block;
+    color: #808080;
 }
 
 .masonry-post-more i {
-  font-size: 18px;
-  padding-right: 10px;
+    font-size: 18px;
+    padding-right: 10px;
 }
 
 .masonry-post-more:hover {
-  -webkit-transition: all .5s;
-  -moz-transition:    all .5s;
-  -ms-transition:     all .5s;
-  -o-transition:      all .5s;
-  transition:         all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition:    all .5s;
+    -ms-transition:     all .5s;
+    -o-transition:      all .5s;
+    transition:         all .5s;
 }
 
 .masonry-post-more:hover a {
-  color: #fff;
+    color: #fff;
 }
 
 .masonry-post-more a:hover {
@@ -1802,25 +1802,25 @@ a.hire-btn:hover{
 
 /* load more button */
 .btn-masonry-container {
-  text-align: center;
+    text-align: center;
 }
 
 .btn-masonry {
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-top: 25px;
-  padding: 10px 25px;
-  color: #2c3e50;
-  border: 2px solid #2c3e50;
-
-  -webkit-transition: all .5s;
-  -moz-transition:  all .5s;
-  -ms-transition:   all .5s;
-  -o-transition:    all .5s;
-  transition:     all .5s;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 25px;
+    padding: 10px 25px;
+    color: #2c3e50;
+    border: 2px solid #2c3e50;
+    
+    -webkit-transition: all .5s;
+    -moz-transition:  all .5s;
+    -ms-transition:   all .5s;
+    -o-transition:    all .5s;
+    transition:     all .5s;
 }
 /* 16 - clients
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 #clients {
     background-color: #F0F2F7;
 }
@@ -1828,7 +1828,7 @@ a.hire-btn:hover{
     margin-bottom: 30px;
 }
 /* 16.1 - Testimonials
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 #testimonials {
     margin-top: 50px;
     margin-bottom: 100px;
@@ -1852,7 +1852,7 @@ a.hire-btn:hover{
 }
 
 /* 16.2 - Clients Logo
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 
 .clients_logo {
     list-style: none outside none;
@@ -1869,7 +1869,7 @@ a.hire-btn:hover{
 
 
 /* 17 - contact
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .get_in{
     list-style: none;
     margin-top: 40px;
@@ -1904,7 +1904,7 @@ a.hire-btn:hover{
     -moz-transition: all 0.2s linear;
     -webkit-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
-    }
+}
 .form input[type=text]:focus,.form textarea:focus, input[type=email]:focus {
     background-color: #e1e1e1;
     box-shadow:none;
@@ -1926,11 +1926,11 @@ a.hire-btn:hover{
 }
 
 .sending{
-  display:none;
-  color:#222222;
-  font-size:20px;
-  line-height:20px;
-  text-align: center;
+    display:none;
+    color:#222222;
+    font-size:20px;
+    line-height:20px;
+    text-align: center;
 }
 .mess.center {
     color: #222222;
@@ -1954,7 +1954,7 @@ a.hire-btn:hover{
 
 
 /* 18 - Footer
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .twitter-feed-section{
     background: none repeat scroll 0 0 #55acee;
     color: #FFFFFF;
@@ -1971,7 +1971,7 @@ a.hire-btn:hover{
     width: 90%;
 }
 /* 18.1 - Tweet List
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .tweets-list-container{
     float: left;
     overflow: hidden;
@@ -1985,7 +1985,7 @@ a.hire-btn:hover{
     text-align: center;
 }
 /* 18.2 - Footer Widgets
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .footer-widgets{
     background-color: #222222;
     color: #FFFFFF;
@@ -2068,7 +2068,7 @@ a.hire-btn:hover{
     margin-top: 36px;
 }
 /* 18.3 - Footer social icons
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .footer-bottom .social { padding:0; margin:2em 0; list-style:none; text-align: center; }
 .footer-bottom .social li { display:inline-block; padding:0; margin-bottom: 3px; }
 .footer-bottom .social li a {
@@ -2136,7 +2136,7 @@ a.hire-btn:hover{
 .footer-bottom .social li a.instagram { background-color:#3f729b; }
 
 /* 19 - Color Switcher
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .colors-switcher {
     width:100px;
     padding:20px 18px 14px 20px;
@@ -2232,7 +2232,7 @@ a.hire-btn:hover{
     background-color: #797979;
 }
 /* 20 - Preloader
-------------------------------------------------------------------------*/
+ ------------------------------------------------------------------------*/
 .mask {
     background-color: #ffffff;
     height: 100%;
