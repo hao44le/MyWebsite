@@ -5,7 +5,7 @@
 */
 
 (function($) {
-
+ 
 	skel.breakpoints({
 		wide: '(min-width: 961px) and (max-width: 1880px)',
 		normal: '(min-width: 961px) and (max-width: 1620px)',
@@ -15,7 +15,7 @@
 	});
 
 	$(function() {
-
+      
 		var	$window = $(window),
 			$body = $('body');
 
@@ -25,7 +25,7 @@
 			$window.on('load', function() {
 				$body.removeClass('is-loading');
 			});
-
+        
 		// CSS polyfills (IE<9).
 			if (skel.vars.IEVersion < 9)
 				$(':last-child').addClass('last-child');
@@ -43,7 +43,7 @@
 
 		// Scrolly links.
 			$('.scrolly').scrolly();
-
+      
 		// Nav.
 			var $nav_a = $('#nav a');
 
@@ -108,7 +108,7 @@
 						target: $body,
 						visibleClass: 'header-visible'
 					});
-
+            
 			// Fix: Remove transitions on WP<10 (poor/buggy performance).
 				if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
 					$('#headerToggle, #header, #main')
