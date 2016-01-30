@@ -55,10 +55,6 @@
 
 
 
-/* 1 - Imported Stylesheets
- ------------------------------------------------------------------------*/
-@import url(metrofontpack.css);
-
 
 /* 2 - General Styles
  ------------------------------------------------------------------------*/
@@ -278,13 +274,18 @@ a.hire-btn:hover{
     text-align: center;
 }
 
-.social li a.facebook:before { content: '\e800'; }
+.social li a.facebook:before {
+    font-family: FontAwesome;
+    content: '\f082';
+}
 .social li a.twitter:before { content: '\e801'; }
 .social li a.flickr:before { content: '\e810'; }
 .social li a.rss:before { content: '\e80b'; }
 .social li a.dribble:before { content: '\e806'; }
 .social li a.lastfm:before { content: '\e80a'; }
-.social li a.linkedin:before { content: '\e802'; }
+.social li a.linkedin:before {
+    font-family: FontAwesome;
+    content: '\f08c'; }
 .social li a.vimeo:before { content: '\e80c'; }
 .social li a.google:before { content: '\e84d'; }
 .social li a.forrst:before { content: '\e80d'; }
@@ -297,7 +298,9 @@ a.hire-btn:hover{
 .social li a.delicious:before { content: '\e80f'; }
 .social li a.digg:before { content: '\e807'; }
 .social li a.friendfeed:before { content: '\e867'; }
-.social li a.github:before { content: '\e805'; }
+.social li a.github:before {
+    font-family: FontAwesome;
+    content: '\f09b'; }
 .social li a.wordpress:before { content: '\e816'; }
 .social li a.pinterest:before { content: '\e804'; }
 .social li a.instagram:before { content: '\e80e'; }
@@ -980,7 +983,7 @@ a.hire-btn:hover{
 /* 8 - Experience
  ------------------------------------------------------------------------*/
 #experience.section{
-    background-color: #f0f2f7;
+    background-color: #F0F2F7;
 }
 
 /* 8.1 - Timeline
@@ -1035,6 +1038,7 @@ a.hire-btn:hover{
     background-color: #e74b3b;
     z-index: 7;
 }
+
 .iconspace i{
     font-size: 18px;
     color: #FFFFFF;
@@ -1276,7 +1280,7 @@ a.hire-btn:hover{
 /* 11 - Skills
  ------------------------------------------------------------------------*/
 #skills {
-    background-color: #F0F2F7;
+    background-color: #f0f2f7;
 }
 
 /* 11 - Skill chart
@@ -1892,7 +1896,6 @@ a.hire-btn:hover{
 .form input[type="text"], textarea {
     color: #999999;
     font-size: 14px;
-    text-transform:uppercase;
     height: 64px;
     padding: 26px 3%;
     background:none repeat scroll 0 0 #f2f2f2;
@@ -1942,7 +1945,8 @@ a.hire-btn:hover{
 }
 
 .contact {
-    background:none repeat scroll 0 0 rgba(255, 255, 255, 0.60);
+    background-color: #F0F2F7;
+    
     height: 400px;
     position: absolute;
     z-index: 2;
@@ -2086,13 +2090,18 @@ a.hire-btn:hover{
     border: none;
 }
 
-.footer-bottom .social li a.facebook:before { content: '\e800'; }
+.footer-bottom .social li a.facebook:before {
+    font-family: FontAwesome;
+    content: '\f082';
+}
 .footer-bottom .social li a.twitter:before { content: '\e801'; }
 .footer-bottom .social li a.flickr:before { content: '\e810'; }
 .footer-bottom .social li a.rss:before { content: '\e80b'; }
 .footer-bottom .social li a.dribble:before { content: '\e806'; }
 .footer-bottom .social li a.lastfm:before { content: '\e80a'; }
-.footer-bottom .social li a.linkedin:before { content: '\e802'; }
+.footer-bottom .social li a.linkedin:before {
+    font-family: FontAwesome;
+    content: '\f08c'; }
 .footer-bottom .social li a.vimeo:before { content: '\e80c'; }
 .footer-bottom .social li a.google:before { content: '\e84d'; }
 .footer-bottom .social li a.forrst:before { content: '\e80d'; }
@@ -2105,7 +2114,9 @@ a.hire-btn:hover{
 .footer-bottom .social li a.delicious:before { content: '\e80f'; }
 .footer-bottom .social li a.digg:before { content: '\e807'; }
 .footer-bottom .social li a.friendfeed:before { content: '\e867'; }
-.footer-bottom .social li a.github:before { content: '\e805'; }
+.footer-bottom .social li a.github:before {
+    font-family: FontAwesome;
+    content: '\f09b'; }
 .footer-bottom .social li a.wordpress:before { content: '\e816'; }
 .footer-bottom .social li a.pinterest:before { content: '\e804'; }
 .footer-bottom .social li a.instagram:before { content: '\e80e'; }

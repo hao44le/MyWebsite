@@ -136,7 +136,7 @@
 
 /*----------------------------- Google Map --------------------------*/
   $('#gmap').gmap3({
-    marker:{address:"925 Hilltop Drive, West Lafayette, IN 47906", options:{icon: "img/location3.png"}},
+    marker:{address:"1275 1st St, West Lafayette, IN 47906", options:{icon: "img/location.png"}},
     map:{
         options:{
         zoom: 14,
