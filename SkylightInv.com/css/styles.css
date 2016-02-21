@@ -204,7 +204,7 @@ a.mt-button {
     display:inline-block;
 }
 a.hire-btn{
-    background-color: #e74c3c;
+    background-color: #fff;
     color: #FFFFFF;
     font-family: 'Raleway', Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -1456,6 +1456,7 @@ a.hire-btn:hover{
 }
 .project-image:hover .overlay {
     opacity: 1;
+    
 }
 .project-item .overlay h2 {
     font-size: 25px;
@@ -1557,7 +1558,7 @@ a.hire-btn:hover{
     color: #fff !important;
 }
 .more-portfolio-item {
-    background-color: #f2f2f2;
+    background-color: #fff;
     padding: 100px 0;
 }
 .more-portfolio-item .title > h2 {
@@ -1565,6 +1566,11 @@ a.hire-btn:hover{
     text-align: center;
     text-transform: uppercase;
 }
+/* 13 - credits*/
+#credits {
+    background-color: #f0f2f7;
+}
+
 /* 14 - PriceTable Bg
  ------------------------------------------------------------------------*/
 #pricetable{
@@ -1672,7 +1678,6 @@ a.hire-btn:hover{
     text-transform: uppercase;
     border-radius: 5px;
 }
-
 /* 15 - Blog
  ------------------------------------------------------------------------*/
 #blog {
@@ -2232,32 +2237,4 @@ a.hire-btn:hover{
 }
 .colors-switcher .colors-list a.gray {
     background-color: #797979;
-}
-/* 20 - Preloader
- ------------------------------------------------------------------------*/
-.mask {
-    background-color: #ffffff;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-}
-.loader-color {
-    border-color: #f54f36 !important;
-}
-.loader-item {
-    background: none repeat scroll 0 0 #ffffff;
-    border-bottom: 3px solid rgba(0, 0, 0, 0) !important;
-    border-left: 3px solid;
-    border-radius: 200px;
-    border-right: 3px solid;
-    border-top: 3px solid;
-    height: 40px;
-    left: 50%;
-    margin: -20px 0 0 -20px;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    width: 40px;
 }

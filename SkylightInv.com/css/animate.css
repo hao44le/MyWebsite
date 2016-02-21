@@ -32,6 +32,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	        animation-duration: 2s;
 }
 
+
 @-webkit-keyframes flash {
 	0%, 50%, 100% {opacity: 1;}	
 	25%, 75% {opacity: 0;}
@@ -1700,9 +1701,7 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 
 .bounceIn {
 	-webkit-animation-name: bounceIn;
-	-moz-animation-name: bounceIn;
-	-o-animation-name: bounceIn;
-	animation-name: bounceIn;
+  animation-name: bounceIn;
 }
 @-webkit-keyframes bounceInUp {
 	0% {
