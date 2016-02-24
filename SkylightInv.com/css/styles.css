@@ -1431,7 +1431,7 @@ a.hire-btn:hover{
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 400;
-    padding-top: 10px;
+    padding-top: 3px;
 }
 .project-item .details p span {
     font-style: normal;
@@ -1465,7 +1465,7 @@ a.hire-btn:hover{
     padding: 0;
     transition: all 0.4s ease 0s;
     text-transform: uppercase;
-    margin-top: 73px;
+    margin-top: 5px;
 }
 .project-item .overlay > h2 a {
     opacity: 1;
