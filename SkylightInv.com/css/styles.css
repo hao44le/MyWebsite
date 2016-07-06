@@ -264,7 +264,7 @@ a.hire-btn:hover{
     opacity: .6;
     background: transparent;
     display: block;
-    font-family: 'fontello';
+    font-family: FontAwesome;
     font-size: 15px;
     height: 36px;
     width: 36px;
@@ -274,9 +274,10 @@ a.hire-btn:hover{
     text-align: center;
 }
 
-.social li a.facebook:before {
+
+.social li a.pagelines:before {
     font-family: FontAwesome;
-    content: '\f082';
+    content: '\f18c';
 }
 .social li a.twitter:before { content: '\e801'; }
 .social li a.flickr:before { content: '\e810'; }
@@ -316,7 +317,7 @@ a.hire-btn:hover{
     opacity: 1;
     border-color: #5ec3df;
 }
-.social li a.flickr:hover  {
+.social li a.pagelines:hover  {
     background-color:#FF0084;
     opacity: 1;
     border-color: #FF0084;
@@ -391,11 +392,6 @@ a.hire-btn:hover{
     opacity: 1;
     border-color: #fc9947;
 }
-.social li a.delicious:hover  {
-    background-color: #3274d1;
-    opacity: 1;
-    border-color: #3274d1;
-}
 .social li a.digg:hover  {
     background-color: #205891;
     opacity: 1;
@@ -407,6 +403,11 @@ a.hire-btn:hover{
     border-color: #2f72c4;
 }
 .social li a.github:hover  {
+    background-color: #000000;
+    opacity: 1;
+    border-color: #000000;
+}
+.social li a.fa-angellist:hover  {
     background-color: #000000;
     opacity: 1;
     border-color: #000000;

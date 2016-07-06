@@ -134,17 +134,6 @@
     itemsMobile : [480,1]
   });
 
-/*----------------------------- Google Map --------------------------*/
-  $('#gmap').gmap3({
-    marker:{address:"1275 1st St, West Lafayette, IN 47906", options:{icon: "img/location.png"}},
-    map:{
-        options:{
-        zoom: 14,
-        scrollwheel: false
-                }
-        }
-  });
-
 /*----------------------------- Contact Form --------------------------*/
      $('#submit').formValidator({
         scope: '#form'
