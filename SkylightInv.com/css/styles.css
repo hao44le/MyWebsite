@@ -2384,6 +2384,101 @@ a.hire-btn:hover{
 .event label {
     -webkit-backface-visibility: hidden;
 }
+@media screen and (max-width: 850px) { 
+    .content-inner h3 {
+        font-size: 20px;
+    }
 
+    .content-inner p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .event input[type="radio"]:checked ~ .content-perspective .content-inner p {
+        max-height: 500px; 
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .timeline::before {
+        left: 50px;
+    }
+
+    .event { 
+        padding-right: 0px;
+        margin-bottom: 100px;
+    }
+
+
+    .thumb {
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    .event input[type="radio"] {
+        width: 100px;
+        height: 100px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .thumb:before,
+    .event input[type="radio"]:checked ~ .thumb:before {
+        background: none;
+        width: 0;
+    }
+
+    .event label {
+        display: none;
+    }
+
+    .content-perspective {
+        margin-left: 0px; 
+        top: 80px;
+    }
+
+    .content-perspective:before {
+        height: 0px; 
+    }
+
+    .content {
+        -webkit-transform: rotateX(-10deg);
+        -moz-transform: rotateX(-10deg);
+        -o-transform: rotateX(-10deg);
+        -ms-transform: rotateX(-10deg);
+        transform: rotateX(-10deg);
+    }
+
+    .event input[type="radio"]:checked ~ .content-perspective .content {
+        -webkit-transform: rotateX(10deg);
+        -moz-transform: rotateX(10deg);
+        -o-transform: rotateX(10deg);
+        -ms-transform: rotateX(10deg);
+        transform: rotateX(10deg);
+    }
+
+    .content-inner {
+        border-left: none;
+        border-top: 5px solid #41838e;
+    }
+
+    .event input[type="radio"]:checked ~ .content-perspective .content-inner {
+        border-color: #F26328;
+        box-shadow: 0 10px 10px -6px rgba(0, 0, 0, 0.1);
+    }
+
+    .content-inner:before {
+        content: '\25b4';
+        left: 33px;
+        top: -32px;
+    }
+
+    .event input[type="radio"]:checked ~ .content-perspective .content-inner p {
+        max-height: 300px; 
+    }
+}
 
 
