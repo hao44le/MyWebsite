@@ -2112,14 +2112,13 @@ a.hire-btn:hover{
 
 .thumb:before {
     content: '';
+    width: 47px;
+    left: 110%;
+    top: 41px;
     position: absolute;
-    height: 14px;
+    height: 10px;
     z-index: -1;
-    background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPElEQVQYV2NkQAP/gYARCNDFUQRgirAphitEl0TngxXisg5ZnBGXIpgbYfIYjkb3BNxGbBLYxIgyEaQRAA8KKAWYsZtjAAAAAElFTkSuQmCC);
-    width: 51px;
-    top: 42px;
-    left: 100%;
-    margin-left: 8px;
+    background: #fff;
 }
 
 .thumb span {
@@ -2134,35 +2133,19 @@ a.hire-btn:hover{
 }
 
 .user-1 {
-    background-image: url(../images/chewbacca.jpg);
+    background-image: url(../img/exits/shengmu.png);
 }
 
 .user-2 {
-    background-image: url(../images/barf.jpg);
+    background-image: url(../img/exits/skxing.png);
 }
 
 .user-3 {
-    background-image: url(../images/darkhelmet.jpg);
+    background-image: url(../img/exits/haixin3d.png);
 }
 
 .user-4 {
-    background-image: url(../images/darthvader.jpg);
-}
-
-.user-5 {
-    background-image: url(../images/leia.jpg);
-}
-
-.user-6 {
-    background-image: url(../images/vespa.jpg);
-}
-
-.user-7 {
-    background-image: url(../images/c3po.jpg);
-}
-
-.user-8 {
-    background-image: url(../images/dotmatrix.jpg);
+    background-image: url(../img/exits/neatrition.png);
 }
 
 /* Transparent Checkbox/radio hack: leave the checkbox on top, hide it with opacity 0 */
@@ -2202,7 +2185,6 @@ a.hire-btn:hover{
 .content-perspective {
     margin-left: 230px;
     position: relative;
-
     -webkit-perspective: 600px;
     -moz-perspective: 600px;
     -o-perspective: 600px;
@@ -2222,12 +2204,6 @@ a.hire-btn:hover{
 }
 
 .content {
-    -webkit-transform: rotateY(10deg);
-    -moz-transform: rotateY(10deg);
-    -o-transform: rotateY(10deg);
-    -ms-transform: rotateY(10deg);
-    transform: rotateY(10deg);
-
     -webkit-transform-origin: 0 0;
     -moz-transform-origin: 0 0;
     -o-transform-origin: 0 0;
@@ -2307,7 +2283,7 @@ a.hire-btn:hover{
     -o-transition: -o-transform 0.8s cubic-bezier(.59,1.45,.69,.98) 0.2s;
     -ms-transition: -ms-transform 0.8s cubic-bezier(.59,1.45,.69,.98) 0.2s;
     transition: transform 0.8s cubic-bezier(.59,1.45,.69,.98) 0.2s;
-}
+}   
 
 .content-inner p {
     -webkit-transition: max-height 0.5s linear, color 0.3s linear;
@@ -2334,11 +2310,11 @@ a.hire-btn:hover{
 }
 
 .event input[type="radio"]:checked ~ .content-perspective .content {
-    -webkit-transform: rotateY(-5deg);
-    -moz-transform: rotateY(-5deg);
-    -o-transform: rotateY(-5deg);
-    -ms-transform: rotateY(-5deg);
-    transform: rotateY(-5deg);
+    /*-webkit-transform: rotateY(-5deg);*/
+    /*-moz-transform: rotateY(-5deg);*/
+    /*-o-transform: rotateY(-5deg);*/
+    /*-ms-transform: rotateY(-5deg);*/
+    /*transform: rotateY(-5deg);*/
 }
 
 .event input[type="radio"]:checked ~ .content-perspective .content-inner {
@@ -2376,7 +2352,8 @@ a.hire-btn:hover{
 }
 
 .event input[type="radio"]:checked ~ .thumb:before {
-    background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQYV2NkQAOfUjX+882+wYgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQBbNyaHFmzEqgAAAABJRU5ErkJggg==);
+
+    /*background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQYV2NkQAOfUjX+882+wYgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQBbNyaHFmzEqgAAAABJRU5ErkJggg==);*/
 }
 
 .content-inner p,
@@ -2406,7 +2383,7 @@ a.hire-btn:hover{
 
     .event { 
         padding-right: 0px;
-        margin-bottom: 100px;
+        margin-bottom: 160px;
     }
 
 
@@ -2437,7 +2414,7 @@ a.hire-btn:hover{
 
     .content-perspective {
         margin-left: 0px; 
-        top: 80px;
+        top: 140px;
     }
 
     .content-perspective:before {
@@ -2445,19 +2422,19 @@ a.hire-btn:hover{
     }
 
     .content {
-        -webkit-transform: rotateX(-10deg);
+/*        -webkit-transform: rotateX(-10deg);
         -moz-transform: rotateX(-10deg);
         -o-transform: rotateX(-10deg);
-        -ms-transform: rotateX(-10deg);
-        transform: rotateX(-10deg);
+        -ms-transform: rotateX(-10deg);*/
+        transform: rotateX(0deg);
     }
 
     .event input[type="radio"]:checked ~ .content-perspective .content {
-        -webkit-transform: rotateX(10deg);
-        -moz-transform: rotateX(10deg);
-        -o-transform: rotateX(10deg);
-        -ms-transform: rotateX(10deg);
-        transform: rotateX(10deg);
+        /*-webkit-transform: rotateX(10deg);*/
+        /*-moz-transform: rotateX(10deg);*/
+        /*-o-transform: rotateX(10deg);*/
+        /*-ms-transform: rotateX(10deg);*/
+        transform: rotateX(0deg);
     }
 
     .content-inner {
@@ -2477,7 +2454,7 @@ a.hire-btn:hover{
     }
 
     .event input[type="radio"]:checked ~ .content-perspective .content-inner p {
-        max-height: 300px; 
+        max-height: 350px; 
     }
 }
 
