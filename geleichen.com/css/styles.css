@@ -743,6 +743,15 @@ a.hire-btn:hover{
     font-size: 60px;
 }
 
+.section-title h3{
+    text-transform: uppercase;
+    color: #2c3d4f;
+    font-weight: 700;
+    letter-spacing: 5px;
+    line-height: 40px;
+    font-size: 40px;
+}
+
 .border {
     display: block;
     margin: 40px auto;
@@ -985,6 +994,12 @@ a.hire-btn:hover{
 #experience.section{
     background-color: #F0F2F7;
 }
+.exp-cagegory{
+    clear: both;
+}
+.exp-cagegory .iconspace{
+    background-color: #E74B3B;
+}
 
 /* 8.1 - Timeline
  ------------------------------------------------------------------------*/
@@ -1064,7 +1079,7 @@ a.hire-btn:hover{
     border-radius: 5px;
     position: relative;
 }
-.timeline-post-left > .timeline-post > .timeline-post-content-holder > .timeline-post-icon{
+.timeline-post-left a > .timeline-post > .timeline-post-content-holder > .timeline-post-icon{
     position: absolute;
     right: 0;
     background-color: #ccd0db;
@@ -1075,7 +1090,7 @@ a.hire-btn:hover{
     z-index: 6;
     margin-top: 10px;
 }
-.timeline-post-right > .timeline-post > .timeline-post-content-holder > .timeline-post-icon{
+.timeline-post-right a > .timeline-post > .timeline-post-content-holder > .timeline-post-icon{
     position: absolute;
     left: 0;
     background-color: #ccd0db;
@@ -1086,7 +1101,7 @@ a.hire-btn:hover{
     z-index: 6;
     margin-top: 10px;
 }
-.timeline-post-left > .timeline-post:hover > .timeline-post-content-holder > .timeline-post-icon{
+.timeline-post-left a > .timeline-post:hover > .timeline-post-content-holder > .timeline-post-icon{
     position: absolute;
     right: 0;
     background-color: #e74b3b;
@@ -1097,7 +1112,7 @@ a.hire-btn:hover{
     z-index: 6;
     margin-top: 10px;
 }
-.timeline-post-right > .timeline-post:hover > .timeline-post-content-holder > .timeline-post-icon{
+.timeline-post-right a > .timeline-post:hover > .timeline-post-content-holder > .timeline-post-icon{
     position: absolute;
     right: 0;
     background-color: #e74b3b;
@@ -1543,9 +1558,23 @@ a.hire-btn:hover{
     padding-top: 150px;
 }
 .portfolio-single h3 {
+    text-align: center;
+    position: relative;
     margin-bottom: 20px;
-    text-transform: uppercase;
 }
+.portfolio-single p {
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.portfolio-single img {
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
 .portfolio-single .single-project img {
     margin-bottom: 10px;
     margin-top: 34px;
@@ -1553,6 +1582,8 @@ a.hire-btn:hover{
 .portfolio-single .item-meta {
     font-size: 16px;
     list-style: outside none none;
+    text-align: center;
+    position: relative;
     margin-bottom: 0;
     margin-left: -38px;
 }
@@ -1561,6 +1592,8 @@ a.hire-btn:hover{
 }
 .portfolio-single .btn {
     margin: 20px 0 40px;
+    position: relative;
+    text-align: center;
 }
 .portfolio-single .btn:hover {
     color: #fff !important;
