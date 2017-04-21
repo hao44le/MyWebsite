@@ -1377,6 +1377,10 @@ a.hire-btn:hover{
     background-color: #f0f2f7;
 }
 
+#update {
+    background-color: #f0f2f7;
+}
+
 /* 14 - PriceTable Bg
  ------------------------------------------------------------------------*/
 #pricetable{
@@ -2146,6 +2150,14 @@ a.hire-btn:hover{
 
 .user-4 {
     background-image: url(../img/exits/neatrition.png);
+}
+
+.update-1 {
+    background-image: url(../img/update/tony_gao.png);
+}
+
+.update-2 {
+    background-image: url(../img/update/rice_donate.png);
 }
 
 /* Transparent Checkbox/radio hack: leave the checkbox on top, hide it with opacity 0 */
