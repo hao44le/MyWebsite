@@ -2309,16 +2309,16 @@ a.hire-btn:hover{
 
 .event label:after {
     content: '\2714';
-    color: #F26328;
+    color: #4ABCDD;
     box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.8);
 }
 
 .event .content-perspective:before {
-    background: #F26328;
+    background: #4ABCDD;
 }
 
 .event .content-perspective .content-inner h3 {
-    color: #F26328;
+    color: #7B7B7B;
 }
 
 .event .content-perspective .content {
@@ -2330,7 +2330,7 @@ a.hire-btn:hover{
 }
 
 .event .content-perspective .content-inner {
-    border-color: #F26328;
+    border-color: #4ABCDD;
     box-shadow: 10px 0px 10px -6px rgba(0, 0, 0, 0.1);
 }
 
@@ -2345,7 +2345,7 @@ a.hire-btn:hover{
 }
 
 .event .content-perspective .content-inner:before {
-    color: #F26328;
+    color: #4ABCDD;
 }
 
 .event .thumb {
@@ -2355,12 +2355,12 @@ a.hire-btn:hover{
     -ms-transform: scale(1);
     transform: scale(1);
     box-shadow: 
-        0 0 0 8px rgba(242,99,40,1), 
+        0 0 0 8px rgba(74,188,221,1), 
         0 1px 1px rgba(255,255,255,0.5);
 }
 
 .event .thumb span {
-    color: #F26328;
+    color: #4ABCDD;
 }
 
 .event .thumb:before {
@@ -2455,7 +2455,7 @@ a.hire-btn:hover{
     }
 
     .event .content-perspective .content-inner {
-        border-color: #F26328;
+        border-color: #4ABCDD;
         box-shadow: 0 10px 10px -6px rgba(0, 0, 0, 0.1);
     }
 
