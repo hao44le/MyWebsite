@@ -1239,7 +1239,7 @@ a.hire-btn:hover{
     font-weight: 400;
     padding-top: 3px;
 }
-.project-item .details p span {
+.details p span {
     font-style: normal;
     letter-spacing: 1px;
     margin-left: 2px;
