@@ -322,7 +322,7 @@ a.hire-btn:hover{
     opacity: 1;
     border-color: #5ec3df;
 }
-.social li a.pagelines:hover  {
+.social li a.pagelines  {
     background-color:#FF0084;
     opacity: 1;
     border-color: #FF0084;
@@ -346,6 +346,7 @@ a.hire-btn:hover{
     background-color:#2089b5;
     opacity: 1;
     border-color: #2089b5;
+    font-size: 50px;
 }
 .social li a.vimeo:hover  {
     background-color:#0dadd6;
@@ -387,45 +388,15 @@ a.hire-btn:hover{
     opacity: 1;
     border-color: #2C4762;
 }
-.social li a.behance:hover  {
-    background-color: #3878F6;
-    opacity: 1;
-    border-color: #3878F6;
-}
-.social li a.blogger:hover  {
-    background-color: #fc9947;
-    opacity: 1;
-    border-color: #fc9947;
-}
-.social li a.digg:hover  {
-    background-color: #205891;
-    opacity: 1;
-    border-color: #205891;
-}
-.social li a.friendfeed:hover  {
-    background-color: #2f72c4;
-    opacity: 1;
-    border-color: #2f72c4;
-}
-.social li a.github:hover  {
+.social li a.fa-angellist  {
     background-color: #000000;
     opacity: 1;
     border-color: #000000;
 }
-.social li a.fa-angellist:hover  {
-    background-color: #000000;
+.social li a.fa-linkedin  {
+    background-color: #0077B5;
     opacity: 1;
-    border-color: #000000;
-}
-.social li a.wordpress:hover  {
-    background-color: #0083b3;
-    opacity: 1;
-    border-color: #0083b3;
-}
-.social li a.instagram:hover  {
-    background-color:#3f729b;
-    opacity: 1;
-    border-color: #3f729b;
+    border-color: #0077B5;
 }
 
 /* 3 - Header
@@ -758,8 +729,8 @@ a.hire-btn:hover{
 
 .section-title p{
     color: #7e868e;
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 30px;
     text-align: left;
 }
 .section-title p span {
