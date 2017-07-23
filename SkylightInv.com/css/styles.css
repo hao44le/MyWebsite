@@ -2131,6 +2131,13 @@ a.hire-btn:hover{
     background-image: url(../img/update/hyperloop_small.png);
 }
 
+.update-3 {
+    background-image: url(../img/update/woobo.png);
+}
+
+.update-4 {
+    background-image: url(../img/update/netki_small.png);
+}
 /* Transparent Checkbox/radio hack: leave the checkbox on top, hide it with opacity 0 */
 
 .event label,
