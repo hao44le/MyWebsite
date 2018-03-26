@@ -2162,6 +2162,10 @@ a.hire-btn:hover{
 .update-5 {
     background-image: url(../img/update/wetravel_small.png);
 }
+
+.update-6 {
+    background-image: url(../img/update/manus_bio_small.png);
+}
 /* Transparent Checkbox/radio hack: leave the checkbox on top, hide it with opacity 0 */
 
 .event label,
