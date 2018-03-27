@@ -2166,6 +2166,14 @@ a.hire-btn:hover{
 .update-6 {
     background-image: url(../img/update/manus_bio_small.png);
 }
+
+.update-7 {
+    background-image: url(../img/update/landsdowne_labs_small.png);
+}
+
+.update-8 {
+    background-image: url(../img/update/trak_small.png);
+}
 /* Transparent Checkbox/radio hack: leave the checkbox on top, hide it with opacity 0 */
 
 .event label,
