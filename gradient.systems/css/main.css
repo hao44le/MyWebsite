@@ -486,17 +486,17 @@ a.backtotop:hover {
 }
 
 a.button {
-  box-shadow: 0px 4px 0px #96004e;
+  box-shadow: 0px 4px 0px #0079e3;
   color: white;
   font-weight: 500;
   font-family: "atrament-web", "helvetica neue", helvetica, arial, sans-serif;
   text-decoration: none;
-  text-shadow: 0px 2px 0px #e30076;
+  text-shadow: 0px 2px 0px #0079e3;
   font-style: italic;
   text-transform: uppercase;
   text-align: center;
   font-size: 1.4em;
-  background: #ff43a5;
+  background: #42bdff;
   display: inline-block;
   vertical-align: baseline;
   zoom: 1;
