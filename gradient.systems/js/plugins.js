@@ -746,18 +746,6 @@ function(e, t, n) {
 }), mobile || skrollr.init({
   smoothScrolling: !0,
   forceHeight: !1
-}), $(".satellitecontainer").hover(function() {
-  $(this).children(".screen1").css({
-    opacity: 0
-  }), $(this).children(".screen2").css({
-    opacity: 1
-  })
-}, function() {
-  $(this).children(".screen1").css({
-    opacity: 1
-  }), $(this).children(".screen2").css({
-    opacity: 0
-  })
 });
 var scrollTimer = null;
 $(window).scroll(function() {

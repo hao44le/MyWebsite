@@ -439,7 +439,7 @@ h1 span {
 
 h2 {
   text-align: center;
-  font-size: 6em;
+  font-size: 4em;
   font-weight: 500;
   margin: 0.4em 0;
   letter-spacing: 1px
@@ -526,7 +526,7 @@ a.button:active {
 }
 
 a.button:hover {
-  background-color: #e93b96;
+  background-color: #005fb3;
   border-radius: 2px
 }
 
@@ -771,6 +771,17 @@ section.moon article .mooninfo#beers {
   }
 }
 
+section.moon article .mooninfo#killer {
+  background-image: url("../img/killer.png")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+  section.moon article .mooninfo#killer {
+    background-image: url("../img/killer@2x.png");
+    background-size: 74px 74px
+  }
+}
+
 section.moon article p {
   color: #73848c;
   text-shadow: 0px 2px 0px white;
@@ -834,15 +845,6 @@ section.goingdown .screen .satellitecontainer {
 
 section.goingdown .screen .satellitecontainer:last-child {
   margin-right: 0
-}
-
-section.goingdown .screen .satellitecontainer:hover .screen1 {
-  opacity: 0
-}
-
-section.goingdown .screen .satellitecontainer:hover .screen2 {
-  opacity: 1;
-  top: 0
 }
 
 section.goingdown .screen .satellitecontainer .screen1 {
