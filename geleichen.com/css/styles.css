@@ -11,7 +11,7 @@
 /*---------------------------------------------------------------------- /
  Table of Contents
  ------------------------------------------------------------------------ /
- 
+
  * 1 - Imported Stylesheets
  * 2 - General Styles
  *   2.1 - Button Styles
@@ -48,7 +48,7 @@
  *   18.3 - Footer Social Icons
  * 19 - Color Switcer
  * 20 - Preloader
- 
+
  ------------------------------------------------------------------------ /
  Table of Contents End
  ------------------------------------------------------------------------*/
@@ -507,7 +507,7 @@ a.hire-btn:hover{
     border-radius: 30px 30px 30px 30px;
     box-shadow: 1px 0 2px rgba(0, 0, 0, 0.1);
     line-height: 62px;
-    
+
 }
 #open-nav > img{
     margin-left: 20px;
@@ -1183,7 +1183,7 @@ a.hire-btn:hover{
     left: 3px;
     margin-top: 12px;
     border-radius: 50%;
-    
+
 }
 
 .timeline-end-icon{
@@ -1205,7 +1205,7 @@ a.hire-btn:hover{
 /* 9 - Milestones Counters
  ------------------------------------------------------------------------*/
 .count{
-    
+
 }
 .count .single {
     font-size: 20px;
@@ -1233,7 +1233,7 @@ a.hire-btn:hover{
     padding: 20px 0 10px;
     font-size: 22px;
     font-weight: 700;
-    
+
 }
 
 
@@ -1281,7 +1281,7 @@ a.hire-btn:hover{
 .service-content h3{
     color: #2c3d4f;
     text-transform: uppercase;
-    
+
     font-size: 22px;
     font-weight: bold;
 }
@@ -1789,7 +1789,7 @@ a.hire-btn:hover{
     padding: 0 20px;
     font-weight: 600;
     font-size: 14px;
-    
+
     margin-bottom: 15px;
 }
 
@@ -1849,7 +1849,7 @@ a.hire-btn:hover{
     padding: 10px 25px;
     color: #2c3e50;
     border: 2px solid #2c3e50;
-    
+
     -webkit-transition: all .5s;
     -moz-transition:  all .5s;
     -ms-transition:   all .5s;
@@ -1972,14 +1972,10 @@ a.hire-btn:hover{
     color: #222222;
     text-align: center;
 }
-.gmap{
-    height: 500px;
-    margin-top: 50px;
-}
 
 .contact {
     background-color: #F0F2F7;
-    
+
     height: 400px;
     position: absolute;
     z-index: 2;
