@@ -848,6 +848,12 @@ a.hire-btn:hover{
     font-weight: 800;
     font-size: 40px;
 }
+.info > h4{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 32px;
+}
+
 .avatar-section{
     margin: 0 auto;
     text-align: center;
